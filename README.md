@@ -1,4 +1,4 @@
-# SocioBuilding Benchmark App
+# Android Benchmark App
 
 ## Features
 
