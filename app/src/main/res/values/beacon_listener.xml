@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Beacon Scanning Period (millisecond) -->
+    <integer name="beacon_scan_period_foreground">1100</integer>
+    <integer name="beacon_between_scan_period_foreground">3900</integer>
+    <integer name="beacon_scan_period_background">1100</integer>
+    <integer name="beacon_between_scan_period_background">900000</integer>
+    <!--<integer name="beacon_between_scan_period_background">23900</integer>-->
+    <integer name="beacon_region_exit_period">600000</integer>
+    <!-- Foreground Service - Notification Channel -->
+    <!-- Beacons -->
+    <string name="beacon_uuid" translatable="false">77777777-7777-7777-7777-777777777777</string>
+</resources>

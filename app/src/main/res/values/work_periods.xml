@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--IndoorWork period (s)-->
+    <integer name="indoor_work_period">60</integer>
+    <integer name="indoor_work_initial_delay">10</integer>
+        <!--IndoorWork : recording period (ms)-->
+        <integer name="indoor_audio_record_period_ms">5000</integer>
+
+    <!--EvidenceCollectWork Period -->
+        <!--EvidenceCollectWork : recording period (ms) -->
+        <integer name="evidence_collect_audio_record_period_ms">30000</integer>
+
+    <!--OutdoorWork period (min)-->
+    <integer name="outdoor_work_period">15</integer>
+
+    <!--ForecastingWork period (ms)-->
+    <integer name="alarm_task_period">60000</integer>
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">sociobuilding-benchmark-app</string>
+
+    <!-- Activity: MainActivity.kt-->
+    <string name="dialog_permission_location_title">Functionality limited</string>
+    <string name="dialog_permission_location_message">Since location access has not been granted, this app will not be able to discover beacons.\n\nPlease go to Settings » Applications » Permissions and grant location access to this app.</string>
+    <string name="dialog_permission_background_location_title">This app needs background location access</string>
+    <string name="dialog_permission_background_location_message">Please check \"Allow all the time\" option on the next screen.</string>
+
+    <!-- Worker: IndoorWorker.kt-->
+    <string name="indoor_notification_channel_id">1111</string>
+    <string name="indoor_notification_title">recording background noise ...</string>
+    <string name="indoor_cancel_work">cancel</string>
+
+    <!-- Worker: EvidenceCollectWorker.kt-->
+    <string name="evidence_collect_notification_channel_id">2222</string>
+    <string name="evidence_collect_notification_title">recording actuator sound ...</string>
+    <string name="evidence_collect_cancel_work">cancel</string>
+
+    <!-- Firebase -->
+    <string name="fcm_notification_channel_id">3333</string>
+    <string name="fcm_notification_channel_name">FCM</string>
+</resources>
